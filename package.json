@@ -1,0 +1,21 @@
+{
+  "name": "leet-translator",
+  "version": "1.0.0",
+  "description": "A simple 1337 translator",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/theodorecooper/leet-translator",
+  "keywords": [
+    "Electron",
+    "leet",
+    "1337",
+    "translator"
+  ],
+  "author": "Theodore Cooper",
+  "license": "GPL-v3",
+  "devDependencies": {
+    "electron": "^15.3.1"
+  }
+}
