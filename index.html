@@ -3,6 +3,7 @@
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><title>L33t Translator</title>
 
 <style type="text/css">
+
 BODY {
 	PADDING-RIGHT: 8px;
 	PADDING-LEFT: 8px;
@@ -18,16 +19,28 @@ BODY {
 	SCROLLBAR-TRACK-COLOR: black;
 	FONT-FAMILY: sans-serif;
 	SCROLLBAR-DARKSHADOW-COLOR: black;
+	overflow: hidden;
 }
+
 TABLE {
 	FONT-SIZE: 10pt
 }
+
 .header {
 	FONT-SIZE: 20pt; FILTER: Glow(Color=#990000,Strength=4); COLOR: yellow; ZOOM: 100%
 }
+
 INPUT {
-	BORDER-RIGHT: #ff0000 3px double; BORDER-TOP: #ff0000 3px double; BORDER-LEFT: #ff0000 3px double; COLOR: #ffff00; BORDER-BOTTOM: #ff0000 3px double; BACKGROUND-COLOR: #333333
+	BORDER-RIGHT: #bfd7f7 3px double; 
+	BORDER-TOP: #bfd7f7 3px double; 
+	BORDER-LEFT: #bfd7f7 3px double; 
+	COLOR: #bfd7f7; 
+	BORDER-BOTTOM: #bfd7f7 3px double; 
+	BACKGROUND-COLOR: #333333; 
+	border-radius:15px;
+	height:32px
 }
+
 A:link {
 	COLOR: #6fdbdb; ZOOM: 100%; TEXT-DECORATION: none
 }
@@ -92,12 +105,12 @@ A:hover {
                       <td colspan="6" height="10"></td></tr>
                     <tr valign="top" align="left">
                       <td height="182"></td>
-                      <td width="265" colspan="4"><textarea id="lametext" onkeyup="lamechanged()" name="lametext" rows="11" wrap="PHYSICAL" cols="31">Sample text</textarea></td>
+                      <td width="265" colspan="4"><textarea id="lametext" style="resize:none;" onkeyup="lamechanged()" name="lametext" rows="11" wrap="PHYSICAL" cols="31">Sample text</textarea></td>
                       <td></td></tr>
-                    <tr valign="top" align="left">
-                      <td height="24"></td>
+                    <tr valign="top" align="center">
+                      <td colspan="2" height="24"></td>
                       <td width="159" colspan="2"><input id="Forms Button5" onclick="tol33t()" type="button" value="Convert to l33t &gt;&gt;" name="FormsButton5"></td>
-                      <td colspan="3"></td></tr>
+                      <td colspan="4"></td></tr>
                     <tr valign="top" align="left">
                       <td></td>
                       <td width="231" colspan="3">
@@ -122,7 +135,7 @@ A:hover {
                       <td colspan="4" height="10"></td></tr>
                     <tr valign="top" align="left">
                       <td height="182"></td>
-                      <td width="265" colspan="2"><textarea id="l33ttext" onkeyup="l33tchanged();" name="l33ttext" rows="11" wrap="PHYSICAL" cols="31"> 54mpl3 73x7 </textarea></td>
+                      <td width="265" colspan="2"><textarea id="l33ttext" style="resize:none;" onkeyup="l33tchanged();" name="l33ttext" rows="11" wrap="PHYSICAL" cols="31">54mpl3 73x7</textarea></td>
                       <td></td></tr>
                     <tr valign="top" align="left">
                       <td colspan="2" height="24"></td>
@@ -144,20 +157,19 @@ A:hover {
   <tbody><tr>
     <td align="center">
 	<script type="text/javascript"> 
-cpro_client='yymdl_cpr';
-cpro_cbd='#999999'; 
-cpro_cbg='#FFFFFF'; 
-cpro_ctitle='#000000'; 
-cpro_cdesc='#444444'; 
-cpro_curl='#008000'; 
-cpro_clink='#FFFFFF'; 
-cpro_flush=2; 
-cpro_w=728; 
-cpro_h=90; 
-cpro_template='text_default_728_90'; 
-</script>
-
-	
+		cpro_client='yymdl_cpr';
+		cpro_cbd='#999999'; 
+		cpro_cbg='#FFFFFF'; 
+		cpro_ctitle='#000000'; 
+		cpro_cdesc='#444444'; 
+		cpro_curl='#008000'; 
+		cpro_clink='#FFFFFF'; 
+		cpro_flush=2; 
+		cpro_w=728; 
+		cpro_h=90; 
+		cpro_template='text_default_728_90'; 
+	</script>
+	 
 	</td>
   </tr>
 </tbody></table>
